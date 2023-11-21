@@ -1,0 +1,2678 @@
+/* Exported with SnipCSS extension (Ver 1.8.4) */
+@font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .bIS-waz { 
+      display: flex; 
+      align-items: flex-start; 
+      flex-direction: column; 
+      -webkit-box-pack: justify; 
+      justify-content: space-between;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .bIS-waz { 
+      flex-direction: row; 
+      -webkit-box-align: center; 
+      align-items: center;
+    } 
+  }     
+  
+  .dMw-pog { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .hXT-tgn { 
+      -webkit-box-pack: justify; 
+      justify-content: space-between; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      width: auto; 
+      display: none;
+  } 
+  
+  .cIa-m4x { 
+      display: flex; 
+      gap: 24px; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      width: 100%; 
+      -webkit-box-pack: start; 
+      justify-content: flex-start;
+  } 
+  
+  .kcM-kgf { 
+      text-decoration: none !important;
+  } 
+  
+  .fMY-8h7 { 
+      position: relative; 
+      cursor: pointer; 
+      transition: background-color 250ms ease-in-out 0s, box-shadow 100ms ease-in-out 0s; 
+      border: 0px; 
+      font-weight: normal; 
+      border-radius: 6px; 
+      font-size: 18px; 
+      line-height: 24px; 
+      color: rgb(255, 255, 255); 
+      background-color: rgb(234, 29, 44); 
+      font-family: "iFood RC Textos", sans-serif; 
+      padding: 8px;
+  } 
+  
+  .cdS-zdq { 
+      display: none; 
+      margin-right: 3rem;
+  } 
+  
+  .gYU-j16 { 
+      display: none;
+  } 
+  
+  .cIa-m4x > a:first-child  { 
+      display: none;
+  } 
+  
+  .cIa-m4x > a:first-child  { 
+      display: unset;
+  } 
+  
+  .bDO-wrt { 
+      display: flex; 
+      flex-direction: row; 
+      -webkit-box-pack: start; 
+      justify-content: flex-start; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      cursor: pointer; 
+      margin-top: 24px; 
+      width: 100%;
+  } 
+  
+  @media (min-width: 767px){ 
+    .bDO-wrt { 
+      width: auto; 
+      max-width: 275px; 
+      margin-top: 0px;
+    } 
+  }     
+  
+  .dtD-la6 { 
+      background-color: rgb(255, 255, 255); 
+      font-family: "iFood RC Textos", sans-serif; 
+      border: none; 
+      display: flex; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      -webkit-box-pack: center; 
+      justify-content: center; 
+      font-size: 14px; 
+      color: rgb(62, 62, 62); 
+      outline: none;
+  } 
+  
+  .dtD-la6:hover { 
+      cursor: pointer; 
+      color: rgb(239, 87, 83) !important;
+  } 
+  
+  .eYu-8wo { 
+      margin-left: auto; 
+      display: flex; 
+      flex-direction: row; 
+      gap: 16px;
+  } 
+  
+  .jxT-bz6 { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 14px; 
+      line-height: 16px; 
+      text-align: left; 
+      color: rgb(62, 62, 62);
+  } 
+  
+  .hPW-xw5 { 
+      font-size: 16px; 
+      color: rgb(113, 113, 113); 
+      font-weight: 300; 
+      line-height: 24px; 
+      font-style: normal;
+  } 
+  
+  .hPW-xw5:hover { 
+      color: rgb(239, 87, 83) !important;
+  } 
+  
+  .cAP-q29 { 
+      width: 35px; 
+      margin: -20px 5px 0px 0px; 
+      animation: 1.2s cubic-bezier(0.37, 0.49, 0, -0.14) 0s infinite normal none running go-back;
+  } 
+  
+  .EKx-b69 { 
+      white-space: nowrap; 
+      overflow: hidden; 
+      text-overflow: ellipsis;
+  } 
+  
+  .CpzvT { 
+      min-width: 24px; 
+      padding: 0px 6px; 
+      font-size: 24px; 
+      margin-left: auto;
+  } 
+  
+  .hzJ-7rf { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 14px; 
+      line-height: 16px; 
+      text-align: center; 
+      color: rgb(62, 62, 62);
+  } 
+  
+  .grF-1l6 { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 16px; 
+      line-height: 24px;
+  } 
+  
+  .dtD-la6 svg  { 
+      transition: transform 0.32s ease 0s;
+  } 
+  
+  .kOa-w14 { 
+      cursor: pointer; 
+      text-decoration: none !important;
+  } 
+  
+  .kOa-w14:hover { 
+      color: rgb(239, 87, 83) !important;
+  } 
+  
+  .kdO-dco { 
+      position: relative; 
+      cursor: pointer; 
+      transition: background-color 250ms ease-in-out 0s, box-shadow 100ms ease-in-out 0s; 
+      border: 0px; 
+      font-weight: normal; 
+      border-radius: 6px; 
+      padding: 12px 24px; 
+      font-size: 18px; 
+      line-height: 24px; 
+      color: rgb(255, 255, 255); 
+      background-color: rgb(234, 29, 44); 
+      font-family: "iFood RC Textos", sans-serif;
+  } 
+  
+  .eYu-8wo button  { 
+      padding-left: 16px; 
+      padding-right: 16px; 
+      font-size: 16px;
+  } 
+  
+  .cfk-7ky { 
+      width: 100%; 
+      height: 100%;
+  } 
+  
+  .ljF-wot { 
+      white-space: normal; 
+      margin: 0px; 
+      padding: 0px;
+  } 
+  
+  @media screen and (min-width: 1440px){ 
+    .ljF-wot { 
+      width: 177px;
+    } 
+  }     
+  
+  .hVH-odt { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 16px; 
+      line-height: 24px;
+  } 
+  
+  .DPX-1jd { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 14px; 
+      line-height: 16px; 
+      text-align: left;
+  } 
+  
+  .bID-2vs { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 16px; 
+      line-height: 24px; 
+      color: rgb(234, 29, 44);
+  } 
+  
+  .ics-wao { 
+      position: relative; 
+      cursor: pointer; 
+      transition: background-color 250ms ease-in-out 0s, box-shadow 100ms ease-in-out 0s; 
+      font-weight: normal; 
+      border-radius: 6px; 
+      border: 1px solid rgb(234, 29, 44); 
+      padding: calc(11px) 24px; 
+      font-size: 18px; 
+      line-height: 24px; 
+      background-color: rgb(255, 255, 255); 
+      color: rgb(234, 29, 44); 
+      font-family: "iFood RC Textos", sans-serif; 
+      width: 100%;
+  } 
+  
+  
+  @keyframes go-back { 
+    0% {  
+        transform: scale(1, 1) translateY(10px); 
+        transform: scale(1, 1) translateY(10px); 
+    }  
+    10% {  
+        transform: scale(1.1, 0.8) translateY(12px); 
+        transform: scale(1.1, 0.8) translateY(12px); 
+    }  
+    20% {  
+        transform: scale(1, 1) translateY(10px); 
+        transform: scale(1, 1) translateY(10px); 
+    }  
+    60% {  
+        transform: scale(1, 1) translateY(0px); 
+        transform: scale(1, 1) translateY(0px); 
+    }  
+    100% {  
+        transform: scale(1, 1) translateY(10px); 
+        transform: scale(1, 1) translateY(10px); 
+    }  
+  
+  } 
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-4ivUh.style-4ivUh {  
+     color: transparent;  
+  } 
+  
+  /* Exported with SnipCSS extension (Ver 1.8.4) */
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .dMw-jzl { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .hXN-kbg { 
+      display: grid; 
+      gap: 56px; 
+      grid-template-columns: 1fr;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .hXN-kbg { 
+      grid-template-columns: 1fr 1fr;
+    } 
+  }     
+  
+  .eoV-orq { 
+      display: flex;
+  } 
+  
+  .dcm-gzk { 
+      padding-top: 56px; 
+      padding-bottom: 56px;
+  } 
+  
+  .jIo-sox { 
+      position: relative; 
+      z-index: 1; 
+      min-height: 700px;
+  } 
+  
+  .bLv-v6a { 
+      border-radius: 6px; 
+      background-color: rgb(255, 255, 255); 
+      border-width: 1px; 
+      border-style: solid; 
+      border-color: rgb(242, 242, 242); 
+      padding: 24px;
+  } 
+  
+  .hPWBgG:hover { 
+      color: rgb(239, 87, 83) !important;
+  } 
+  
+  .gIa-w69 { 
+      display: grid; 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  @media (min-width: 767px){ 
+    .gIa-w69 { 
+      order: 0;
+    } 
+  }     
+  
+  .kgM-hvg { 
+      font-family: "iFood RC Títulos"; 
+      line-height: 32px; 
+      font-size: 20px; 
+      font-weight: normal; 
+      color: rgb(255, 255, 255);
+  } 
+  
+  .cTr-w8y { 
+      display: grid; 
+      gap: 24px; 
+      margin-top: 32px;
+  } 
+  
+  .efQ-oor { 
+      display: flex; 
+      flex-direction: column; 
+      width: 100%;
+  } 
+  
+  .bBI-yim { 
+      display: flex; 
+      flex-direction: column; 
+      width: 100%;
+  } 
+  
+  .bBn-mbo { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 12px; 
+      line-height: 16px; 
+      color: rgb(113, 113, 113);
+  } 
+  
+  .bdt-lhy { 
+      display: flex; 
+      flex-direction: column;
+  } 
+  
+  .kET-1s9 { 
+      font-weight: normal; 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 16px; 
+      line-height: 24px; 
+      color: rgb(62, 62, 62); 
+      margin-bottom: 4px;
+  } 
+  
+  .jRE-q45 { 
+      border: 1px solid rgb(220, 220, 220); 
+      border-radius: 6px; 
+      overflow: hidden; 
+      transition: box-shadow 100ms ease-in-out 0s; 
+      display: flex; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      background-color: rgb(255, 255, 255);
+  } 
+  
+  .cMj-z6r { 
+      display: flex; 
+      -webkit-box-pack: justify; 
+      justify-content: space-between;
+  } 
+  
+  .LYA-cvh { 
+      font-weight: normal; 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 16px; 
+      line-height: 24px; 
+      color: rgb(62, 62, 62); 
+      margin-bottom: 4px;
+  } 
+  
+  .gkY-g1z { 
+      border: 1px solid rgb(220, 220, 220); 
+      border-radius: 6px; 
+      overflow: hidden; 
+      transition: box-shadow 100ms ease-in-out 0s; 
+      display: flex; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      background-color: rgb(255, 255, 255);
+  } 
+  
+  .cpW-4cy { 
+      display: flex; 
+      -webkit-box-pack: justify; 
+      justify-content: space-between;
+  } 
+  
+  .bDm-p7y { 
+      position: relative; 
+      cursor: pointer; 
+      transition: background-color 250ms ease-in-out 0s, box-shadow 100ms ease-in-out 0s; 
+      border: 0px; 
+      font-weight: normal; 
+      border-radius: 6px; 
+      padding: 12px 24px; 
+      font-size: 18px; 
+      line-height: 24px; 
+      color: rgb(255, 255, 255); 
+      background-color: rgb(234, 29, 44); 
+      font-family: "iFood RC Textos", sans-serif;
+  } 
+  
+  .ksX-vnc { 
+      border: none; 
+      height: auto; 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 18px; 
+      line-height: 24px; 
+      color: rgb(62, 62, 62); 
+      -webkit-box-flex: 1; 
+      flex-grow: 1; 
+      width: 100%; 
+      padding: 12px 8px;
+  } 
+  
+  input:selection { 
+      color: initial; 
+      background: rgb(252, 235, 234);
+  } 
+  
+  .dBf-yjq { 
+      border: none; 
+      height: auto; 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 18px; 
+      line-height: 24px; 
+      color: rgb(62, 62, 62); 
+      -webkit-box-flex: 1; 
+      flex-grow: 1; 
+      width: 100%; 
+      padding: 12px 8px;
+  } 
+  
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .dMw-ktw { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .bvw-tyg { 
+      display: grid; 
+      gap: 32px; 
+      grid-template-columns: 1fr;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .bvw-tyg { 
+      gap: 56px;
+    } 
+  }     
+  
+  @media screen and (min-width: 1023px){ 
+    .bvw-tyg { 
+      grid-template-columns: 1fr 1fr;
+    } 
+  }     
+  
+  .kBk-9fo { 
+      display: flex; 
+      flex-direction: column; 
+      padding-top: 56px; 
+      padding-bottom: 56px;
+  } 
+  
+  .ifx-v14 { 
+      display: flex; 
+      flex-direction: column; 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .eLm-cvj { 
+      display: flex; 
+      flex-direction: column; 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .cwJ-xxs { 
+      font-family: "iFood RC Títulos"; 
+      color: rgb(62, 62, 62); 
+      line-height: 48px; 
+      margin: 0px; 
+      font-size: 36px; 
+      font-weight: 500;
+  } 
+  
+  @media screen and (min-width: 1023px){ 
+    .cwJ-xxs { 
+      font-size: 64px; 
+      line-height: 75px;
+    } 
+  }     
+  
+  .jYS-a16 { 
+      font-family: "iFood RC Títulos"; 
+      font-size: 18px; 
+      line-height: 24px; 
+      font-weight: normal; 
+      color: rgb(62, 62, 62);
+  } 
+  
+  .iQP-rvp { 
+      font-size: inherit;
+  } 
+  
+  .iQP-rvp span  { 
+      color: rgb(239, 87, 83);
+  } 
+  
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .dMw-op4 { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .kGy-3oj { 
+      display: grid; 
+      grid-template-columns: 1fr; 
+      margin-bottom: 24px;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .kGy-3oj { 
+      grid-template-columns: 1fr 1fr;
+    } 
+  }     
+  
+  @media screen and (min-width: 1023px){ 
+    .kGy-3oj { 
+      grid-template-columns: 1fr 1fr 1fr;
+    } 
+  
+    .kGy-3oj { 
+      margin-bottom: 56px;
+    } 
+  }     
+  
+  .kkQ-n3s { 
+      place-items: center; 
+      -webkit-box-align: center;
+  } 
+  
+  .bdt-nhw { 
+      display: flex; 
+      flex-direction: column;
+  } 
+  
+  .eWN-prj { 
+      font-family: "iFood RC Títulos"; 
+      color: rgb(62, 62, 62); 
+      font-size: 32px; 
+      line-height: 48px; 
+      display: flex;
+  } 
+  
+  .gaM-tje { 
+      margin: 0px 12px 0px 0px; 
+      font-size: 90px; 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-weight: normal; 
+      line-height: 100px; 
+      color: rgb(239, 87, 83);
+  } 
+  
+  .hwi-13o { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 18px; 
+      line-height: 24px; 
+      color: rgb(239, 87, 83);
+  } 
+  
+  .gLr-oyo { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 16px; 
+      line-height: 24px; 
+      max-width: 95px; 
+      font-weight: bold;
+  } 
+  
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .deb-nin { 
+      background-color: rgb(252, 235, 234); 
+      color: rgb(62, 62, 62); 
+      position: relative; 
+      z-index: 0;
+  } 
+  
+  .kBk-fra { 
+      display: flex; 
+      flex-direction: column; 
+      padding-top: 56px; 
+      padding-bottom: 56px;
+  } 
+  
+  .dMw-d1z { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .gzm-8fo { 
+      position: relative; 
+      z-index: 1;
+  } 
+  
+  .edJ-jev { 
+      font-family: "iFood RC Títulos"; 
+      line-height: 32px; 
+      margin-top: 0px; 
+      margin-bottom: 48px; 
+      font-size: 32px; 
+      text-align: left; 
+      color: rgb(62, 62, 62);
+  } 
+  
+  @media screen and (min-width: 1023px){ 
+    .edJ-jev { 
+      text-align: center;
+    } 
+  }     
+  
+  .ebB-gf7 { 
+      display: grid; 
+      gap: 56px; 
+      grid-template-columns: 1fr;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .ebB-gf7 { 
+      gap: 16px; 
+      grid-template-columns: 1fr 1fr;
+    } 
+  }     
+  
+  @media screen and (min-width: 1023px){ 
+    .ebB-gf7 { 
+      grid-template-columns: 1fr 1fr 1fr 1fr;
+    } 
+  }     
+  
+  .dzW-if8 { 
+      display: flex; 
+      flex-direction: column; 
+      -webkit-box-align: center; 
+      align-items: center;
+  } 
+  
+  .cfe-njx { 
+      font-family: "iFood RC Títulos"; 
+      font-size: 18px; 
+      line-height: 24px; 
+      margin-top: 12px; 
+      margin-bottom: 12px; 
+      text-align: center; 
+      color: rgb(62, 62, 62);
+  } 
+  
+  .VkG-7lt { 
+      display: flex; 
+      margin-bottom: 16px;
+  } 
+  
+  .jXB-q2q { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 16px; 
+      line-height: 24px; 
+      max-width: 13rem; 
+      text-align: center; 
+      color: rgb(62, 62, 62);
+  } 
+  
+  
+  @keyframes go-back { 
+    0% {  
+        transform: scale(1, 1) translateY(10px); 
+        transform: scale(1, 1) translateY(10px); 
+    }  
+    10% {  
+        transform: scale(1.1, 0.8) translateY(12px); 
+        transform: scale(1.1, 0.8) translateY(12px); 
+    }  
+    20% {  
+        transform: scale(1, 1) translateY(10px); 
+        transform: scale(1, 1) translateY(10px); 
+    }  
+    60% {  
+        transform: scale(1, 1) translateY(0px); 
+        transform: scale(1, 1) translateY(0px); 
+    }  
+    100% {  
+        transform: scale(1, 1) translateY(10px); 
+        transform: scale(1, 1) translateY(10px); 
+    }  
+  
+  } 
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-n4fx6.style-n4fx6 {  
+     position: absolute;  
+      height: 100%;  
+      width: 100%;  
+      inset: 0px;  
+      color: transparent;  
+      display: none;  
+  }  
+  
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .kBk-3oz { 
+      display: flex; 
+      flex-direction: column; 
+      padding-top: 56px; 
+      padding-bottom: 56px;
+  } 
+  
+  .dMw-4pf { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .cur-qto { 
+      position: relative; 
+      display: flex; 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .izp-oze { 
+      display: grid; 
+      gap: 56px; 
+      grid-template-columns: 1fr;
+  } 
+  
+  @media screen and (min-width: 1023px){ 
+    .izp-oze { 
+      grid-template-columns: 1fr 1fr;
+    } 
+  }     
+  
+  .eoV-fhg { 
+      display: flex;
+  } 
+  
+  .cAo-ly7 { 
+      position: relative;
+  } 
+  
+  .hUE-gy5 { 
+      object-fit: contain; 
+      object-position: center center;
+  } 
+  
+  .hPWBgG:hover { 
+      color: rgb(239, 87, 83) !important;
+  } 
+  
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .kBk-3oj { 
+      display: flex; 
+      flex-direction: column; 
+      padding-top: 56px; 
+      padding-bottom: 56px;
+  } 
+  
+  .dMw-w3y { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .fcy-obc { 
+      display: grid; 
+      gap: 56px; 
+      grid-template-columns: 1fr;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .fcy-obc { 
+      gap: 16px;
+    } 
+  }     
+  
+  @media screen and (min-width: 1023px){ 
+    .fcy-obc { 
+      gap: 16px; 
+      grid-template-columns: 1fr 1fr;
+    } 
+  }     
+  
+  .jHs-2c2 { 
+      border-radius: 6px; 
+      padding: 16px; 
+      background-color: rgb(255, 255, 255); 
+      border-width: 1px; 
+      border-style: solid; 
+      border-color: rgb(242, 242, 242); 
+      display: grid;
+  } 
+  
+  .hLM-4ov { 
+      display: flex; 
+      -webkit-box-pack: start; 
+      justify-content: flex-start; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      margin-bottom: 32px;
+  } 
+  
+  .bdt-hop { 
+      display: flex; 
+      flex-direction: column;
+  } 
+  
+  .Icv-5x3 { 
+      display: flex; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      margin-bottom: 12px;
+  } 
+  
+  .jYw-518 { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 16px; 
+      line-height: 24px; 
+      margin-left: 0.5rem; 
+      margin-top: 12px; 
+      max-width: 80%; 
+      font-weight: 500;
+  } 
+  
+  .fjA-igo { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 16px; 
+      line-height: 24px; 
+      margin-left: 0.5rem; 
+      max-width: 80%; 
+      color: rgb(113, 113, 113);
+  } 
+  
+  .cRL-3fl { 
+      display: flex; 
+      margin-top: 12px;
+  } 
+  
+  .bvL-jj8 { 
+      position: relative; 
+      cursor: pointer; 
+      transition: background-color 250ms ease-in-out 0s, box-shadow 100ms ease-in-out 0s; 
+      border: 0px; 
+      font-weight: normal; 
+      border-radius: 6px; 
+      padding: 12px 24px; 
+      font-size: 18px; 
+      line-height: 24px; 
+      color: rgb(255, 255, 255); 
+      background-color: rgb(234, 29, 44); 
+      font-family: "iFood RC Textos", sans-serif; 
+      margin-top: 40px; 
+      width: 100%;
+  } 
+  
+  .jzt-8r4 { 
+      font-family: "iFood RC Títulos"; 
+      color: rgb(62, 62, 62); 
+      font-size: 24px; 
+      line-height: 32px; 
+      margin: 0px 0px 0px 16px; 
+      font-weight: 400;
+  } 
+  
+  .gTa-gvo { 
+      font-family: "iFood RC Textos", sans-serif; 
+      line-height: 24px; 
+      margin-top: 0.9rem; 
+      font-size: 0.9rem; 
+      font-weight: 500; 
+      color: rgb(166, 166, 166);
+  } 
+  
+  .gfM-xq7 { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 16px; 
+      line-height: 24px; 
+      margin-left: 0.5rem; 
+      max-width: 80%;
+  } 
+  
+  a:first-child  { 
+      display: none;
+  } 
+  
+  a:first-child  { 
+      display: unset;
+  } 
+  
+  .hPWBgG:hover { 
+      color: rgb(239, 87, 83) !important;
+  } 
+  
+  .bLX-ykd { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 16px; 
+      line-height: 24px; 
+      margin-left: 0.5rem; 
+      max-width: 80%; 
+      font-weight: 500;
+  } 
+  
+  .bXQ-co5 { 
+      color: rgb(80, 167, 115); 
+      font-weight: 700;
+  } 
+  
+  .jzG-5fh { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 16px; 
+      line-height: 24px; 
+      margin-left: 0.5rem; 
+      max-width: 80%;
+  } 
+  
+  
+  @keyframes go-back { 
+    0% {  
+        transform: scale(1, 1) translateY(10px); 
+        transform: scale(1, 1) translateY(10px); 
+    }  
+    10% {  
+        transform: scale(1.1, 0.8) translateY(12px); 
+        transform: scale(1.1, 0.8) translateY(12px); 
+    }  
+    20% {  
+        transform: scale(1, 1) translateY(10px); 
+        transform: scale(1, 1) translateY(10px); 
+    }  
+    60% {  
+        transform: scale(1, 1) translateY(0px); 
+        transform: scale(1, 1) translateY(0px); 
+    }  
+    100% {  
+        transform: scale(1, 1) translateY(10px); 
+        transform: scale(1, 1) translateY(10px); 
+    }  
+  
+  } 
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-cvYmo.style-cvYmo {  
+     color: transparent;  
+  }  
+  #style-8JjEU.style-8JjEU {  
+     color: transparent;  
+  }  
+  
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .kBk-36e { 
+      display: flex; 
+      flex-direction: column; 
+      padding-top: 56px; 
+      padding-bottom: 56px;
+  } 
+  
+  .dMw-awy { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .bUB-4oq { 
+      display: grid; 
+      gap: 16px; 
+      grid-template-columns: 1fr 1fr 1fr; 
+      margin-top: 48px; 
+      margin-bottom: 48px;
+  } 
+  
+  @media screen and (min-width: 1023px){ 
+    .bUB-4oq { 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    } 
+  }     
+  
+  .kkQ-wes { 
+      place-items: center; 
+      -webkit-box-align: center;
+  } 
+  
+  .cur-fdd { 
+      position: relative; 
+      display: flex; 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .dhP-wp8 { 
+      display: flex; 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .dhP-wp8 { 
+      height: 400px;
+    } 
+  }     
+  
+  @media screen and (min-width: 1023px){ 
+    .dhP-wp8 { 
+      height: 505px;
+    } 
+  }     
+  
+  .fiv-ki5 { 
+      display: grid; 
+      grid-template-columns: 1fr; 
+      margin-bottom: 12px;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .fiv-ki5 { 
+      margin-bottom: 24px;
+    } 
+  }     
+  
+  .nBj-hjm { 
+      place-items: center; 
+      -webkit-box-align: center; 
+      cursor: pointer; 
+      transition: all 0.2s ease-in-out 0s;
+  } 
+  
+  .giU-6cd { 
+      display: flex; 
+      -webkit-box-pack: center; 
+      justify-content: center;
+  } 
+  
+  .fCP-5d3 { 
+      width: 100%; 
+      height: 100%;
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-UDSSK.style-UDSSK {  
+     color: transparent;  
+  }  
+  
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .kBk-ovg { 
+      display: flex; 
+      flex-direction: column; 
+      padding-top: 56px; 
+      padding-bottom: 56px;
+  } 
+  
+  .dMw-8sw { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .kOL-lrl { 
+      display: grid; 
+      gap: 56px; 
+      grid-template-columns: 1fr;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .kOL-lrl { 
+      gap: 48px; 
+      grid-template-columns: 1fr 1fr;
+    } 
+  }     
+  
+  @media screen and (min-width: 1023px){ 
+    .kOL-lrl { 
+      grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    } 
+  }     
+  
+  .eQf-5rc { 
+      display: flex; 
+      flex-direction: column; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      margin-top: 32px;
+  } 
+  
+  .ida-6lf { 
+      font-family: "iFood RC Títulos"; 
+      color: rgb(62, 62, 62); 
+      margin-top: 12px; 
+      margin-bottom: 12px; 
+      font-size: 1.2rem; 
+      line-height: 26px; 
+      text-align: center;
+  } 
+  
+  .kzj-9cl { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 16px; 
+      line-height: 24px; 
+      max-width: 12rem; 
+      text-align: center;
+  } 
+  
+  .VkG-dqt { 
+      display: flex; 
+      margin-bottom: 16px;
+  } 
+  
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .dMw-x5n { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  .eoV-b4b { 
+      display: flex;
+  } 
+  
+  .gxJ-rd8 { 
+      margin: 0px auto; 
+      min-height: 240px; 
+      -webkit-box-align: center; 
+      place-items: center; 
+      border-radius: 6px; 
+      width: 100%; 
+      flex-direction: column; 
+      background: rgb(0, 0, 0);
+  } 
+  
+  @media (min-width: 767px){ 
+    .gxJ-rd8 { 
+      flex-direction: row;
+    } 
+  }     
+  
+  .kBk-vx4 { 
+      display: flex; 
+      flex-direction: column; 
+      padding-top: 56px; 
+      padding-bottom: 56px;
+  } 
+  
+  .hFx-pan { 
+      position: relative; 
+      z-index: 1; 
+      display: inline-grid; 
+      align-content: center; 
+      margin-top: -86px; 
+      padding: 20px; 
+      width: calc(100% - 40px); 
+      background: linear-gradient(0deg, rgb(0, 0, 0) 44%, transparent);
+  } 
+  
+  @media (min-width: 767px){ 
+    .hFx-pan { 
+      margin-left: -380px; 
+      padding: 0px 2rem 0px 22rem; 
+      margin-top: 0px; 
+      min-height: 240px; 
+      width: 40%; 
+      background: linear-gradient(270deg, rgb(0, 0, 0) 60%, transparent);
+    } 
+  }     
+  
+  .fOK-ymt { 
+      position: relative; 
+      z-index: 1; 
+      display: inline-grid; 
+      margin-bottom: 20px; 
+      padding-right: 16px;
+  } 
+  
+  @media (min-width: 767px){ 
+    .fOK-ymt { 
+      max-width: 25%;
+    } 
+  }     
+  
+  .jaf-yb1 { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 16px; 
+      line-height: 24px; 
+      color: rgb(255, 255, 255);
+  } 
+  
+  .kOa-414 { 
+      cursor: pointer; 
+      text-decoration: none !important;
+  } 
+  
+  .kOa-414:hover { 
+      color: rgb(239, 87, 83) !important;
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #style-Eoa7r.style-Eoa7r {  
+     color: transparent;  
+  }  
+  
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  .kBk-l2d { 
+      display: flex; 
+      flex-direction: column; 
+      padding-top: 56px; 
+      padding-bottom: 56px;
+  } 
+  
+  .dMw-f1f { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .btG-faq { 
+      font-family: "iFood RC Títulos"; 
+      color: rgb(62, 62, 62); 
+      line-height: 32px; 
+      margin-bottom: 56px; 
+      font-size: 32px; 
+      text-align: center;
+  } 
+  
+  .khq-l8e { 
+      display: flex; 
+      flex-direction: column; 
+      padding-top: 32px;
+  } 
+  
+  .gQv-co5 { 
+      display: flex; 
+      -webkit-box-pack: center; 
+      justify-content: center; 
+      width: 100%;
+  } 
+  
+  .bdY-keo { 
+      padding: 12px 16px 16px; 
+      border-radius: 6px; 
+      margin-bottom: 16px; 
+      background-color: rgb(242, 242, 242) !important;
+  } 
+  
+  .dUv-p5v { 
+      position: relative; 
+      cursor: pointer; 
+      transition: background-color 250ms ease-in-out 0s, box-shadow 100ms ease-in-out 0s; 
+      border: 0px; 
+      border-radius: 6px; 
+      padding: 4px; 
+      font-size: 18px; 
+      line-height: 32px; 
+      color: rgb(234, 29, 44); 
+      background-color: transparent; 
+      font-family: "iFood RC Textos", sans-serif; 
+      text-decoration: underline; 
+      font-weight: normal;
+  } 
+  
+  .gUc-o4r { 
+      display: flex; 
+      -webkit-box-align: center; 
+      align-items: center; 
+      -webkit-box-pack: justify; 
+      justify-content: space-between;
+  } 
+  
+  .hVH-d4a { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 16px; 
+      line-height: 24px;
+  } 
+  
+  .fmQ-97v { 
+      outline: none; 
+      border: 0px; 
+      cursor: pointer;
+  } 
+  
+  .cSz-mjc { 
+      display: inline-flex; 
+      font-size: 0px;
+  } 
+  
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.e797cd30.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Thin.dbe84e7b.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.7a6b6afe.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Light.8dfabc8d.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.780bbb62.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Medium.808f1e3e.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.c1b7d6bf.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Regular.16c9d480.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.054c4f00.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-Bold.0156feca.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Textos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.568cbda0.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTextos-ExtraBold.22b54ccc.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  .dMw-386 { 
+      margin: 0px auto; 
+      max-width: 1023px; 
+      padding-right: 24px; 
+      padding-left: 24px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  .bdt-vhe { 
+      display: flex; 
+      flex-direction: column;
+  } 
+  
+  .pyv-h1t { 
+      background-color: rgb(242, 242, 242); 
+      padding: 24px 0px;
+  } 
+  
+  @media (min-width: 416px){ 
+    .pyv-h1t { 
+      padding: 56px;
+    } 
+  }     
+  
+  .ibv-9fv { 
+      display: grid; 
+      gap: 48px; 
+      grid-template-columns: 1fr;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .ibv-9fv { 
+      grid-template-columns: repeat(3, 1fr);
+    } 
+  }     
+  
+  @media screen and (min-width: 1023px){ 
+    .ibv-9fv { 
+      grid-template-columns: repeat(4, 1fr);
+    } 
+  }     
+  
+  .eUw-jgg { 
+      display: grid; 
+      gap: 24px; 
+      grid-template-columns: 1fr;
+  } 
+  
+  @media screen and (min-width: 767px){ 
+    .eUw-jgg { 
+      grid-template-columns: 3fr 2fr 1fr 2fr;
+    } 
+  }     
+  
+  .iiK-hos { 
+      border-width: 0px 0px 1px; 
+      border-bottom-style: solid; 
+      border-bottom-color: rgb(220, 220, 220); 
+      margin-top: 48px; 
+      margin-bottom: 48px;
+  } 
+  
+  .eoA-rim { 
+      display: grid; 
+      grid-template-columns: 0.6fr 2fr;
+  } 
+  
+  .dVQ-1t7 { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 12px; 
+      line-height: 16px; 
+      font-weight: 300; 
+      color: rgb(113, 113, 113);
+  } 
+  
+  .kcM-l6v { 
+      text-decoration: none !important;
+  } 
+  
+  .kOa-veo { 
+      cursor: pointer; 
+      text-decoration: none !important;
+  } 
+  
+  .kOa-veo:hover { 
+      color: rgb(239, 87, 83) !important;
+  } 
+  
+  .LiY-79c { 
+      font-family: "iFood RC Títulos"; 
+      color: rgb(62, 62, 62); 
+      font-size: 18px; 
+      line-height: 24px;
+  } 
+  
+  .dEN-2wz h2  { 
+      margin: 0px 0px 32px; 
+      font-size: 16px; 
+      font-weight: 500;
+  } 
+  
+  .iha-fow { 
+      display: grid; 
+      gap: 32px;
+  } 
+  
+  .jxT-8gd { 
+      font-family: "iFood RC Textos", sans-serif; 
+      font-size: 14px; 
+      line-height: 16px; 
+      text-align: left; 
+      color: rgb(62, 62, 62);
+  } 
+  
+  .hPW-f6x { 
+      font-size: 16px; 
+      color: rgb(113, 113, 113); 
+      font-weight: 300; 
+      line-height: 24px; 
+      font-style: normal;
+  } 
+  
+  .hPW-f6x:hover { 
+      color: rgb(239, 87, 83) !important;
+  } 
+  
+  .kNA-qi9 { 
+      display: grid; 
+      gap: 32px; 
+      grid-template-columns: repeat(4, 1fr);
+  } 
+  
+  .DPX-1sg { 
+      font-family: "iFood RC Textos", sans-serif; 
+      color: rgb(62, 62, 62); 
+      font-size: 14px; 
+      line-height: 16px; 
+      text-align: left;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.c6a5305f.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Thin.9fa0302e.woff) format("woff");
+    font-weight:100;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.8fcce308.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Light.581d49c5.woff) format("woff");
+    font-weight:300;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.c71e8250.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Medium.6b759392.woff) format("woff");
+    font-weight:500;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.c82583ec.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Regular.dcad3cf3.woff) format("woff");
+    font-weight:400;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.973a4645.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-Bold.92a27976.woff) format("woff");
+    font-weight:700;
+    font-style:normal;
+    font-display:swap;
+  } 
+  @font-face { 
+    font-family:iFood RC Títulos;
+    src:url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.817ce6b1.woff2) format("woff2"),url(https://parceiros.ifood.com.br/_next/static/media/iFoodRCTitulos-ExtraBold.d1b655a0.woff) format("woff");
+    font-weight:800;
+    font-style:normal;
+    font-display:swap;
+  } 
+    body {  
+      font-size:14px;
+    }  
+  body { 
+      margin: 0px; 
+      padding: 0px; 
+      box-sizing: border-box;
+  } 
+  
+  :root { 
+      font-size: 14px;
+  } 
+  
+  :selection { 
+      color: rgb(62, 62, 62); 
+      background: rgb(239, 87, 83);
+  } 
+  
+  #bli-fep { 
+      display: none;
+  } 
+  
+  #bli-fep { 
+      background-color: #FB0208 !important;
+  } 
+  
+  #bli-fep  { 
+      border-radius: 50%; 
+      display: flex; 
+      align-items: center; 
+      justify-content: center; 
+      cursor: pointer; 
+      z-index: 2; 
+      position: fixed; 
+      width: 4%; 
+      max-width: 60px; 
+      min-width: 48px; 
+      max-height: 60px; 
+      min-height: 48px; 
+      right: 35px; 
+      bottom: 35px; 
+      transition: transform 200ms, opacity 500ms, visibility 500ms; 
+      box-shadow: 0 1px 6px rgba(0, 0, 0, 0.1), 0 2px 32px rgba(0, 0, 0, 0.1); 
+      background-size: 100%; 
+      background-repeat: no-repeat; 
+      background-position: center; 
+      background-repeat-x: no-repeat; 
+      background-repeat-y: no-repeat;
+  } 
+  
+  #blip-chat-container #bli-fep svg { 
+      width: 100%; 
+      height: 100%; 
+      border-radius: 50%;
+  } 
+  
+  
+  /* These were inline style tags. Uses id+class to override almost everything */
+  #bli-fep.style-OoLh9 {  
+     height: 60px;  
+  }  
+  #bli-cgz.style-TTLJB {  
+     display: none;  
+  }  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
